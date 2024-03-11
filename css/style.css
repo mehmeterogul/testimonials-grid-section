@@ -177,6 +177,15 @@ h1 {
       "jonathan jeanette"
       "patrick patrick"
       "kira kira";
+
+    position: relative;
+  }
+
+  .attribution {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
 
@@ -190,10 +199,5 @@ h1 {
     grid-template-areas:
       "daniel daniel daniel daniel jonathan kira"
       "jeanette patrick patrick patrick patrick kira";
-  }
-
-  .attribution {
-    position: fixed;
-    bottom: 0;
   }
 }
